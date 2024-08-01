@@ -10,9 +10,9 @@ function App() {
 
 
   return (
-    <div className="w-full h-auto bg-black text-lightText  ">
-     
-      <div className="w-full mx-auto bg-black ">
+    <div className=" max-w-screen-xl h-auto bg-black text-lightText  ">
+
+      <div className="max-w-screen-xl mx-auto bg-black ">
         <Navbar />
         <Home />
         <About />

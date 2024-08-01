@@ -31,7 +31,7 @@ function Home() {
           </div>
 
           <div className=" w-full realtive ">
-            <img src={Homeimage} className="h-[800px] relative  " />
+            <img src={Homeimage} className="w-full h-[800px] relative  " />
           </div>
 
         </div>
