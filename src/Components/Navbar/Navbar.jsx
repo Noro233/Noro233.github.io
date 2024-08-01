@@ -12,9 +12,9 @@ const Navbar = () => {
                              items-center sticky top-0 z-40">
 
 
-                <div className="ml-[800px]">
+                <div className="ml-[800px] ">
                               
-                    <ul className="flex items-center gap-10  ">
+                    <ul className="flex items-center gap-10 mb-[50px]  ">
                         {
                             navLinksdata.map(({ id, title, link }) => (
 
