@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Noro233.github.io/my-portfolio-project",
+  // "homepage": "https://Noro233.github.io/my-portfolio-project",
   "name": "portfolio-project",
   "version": "0.1.0",
   "private": true,
@@ -18,8 +18,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "start": "react-scripts start",
-    "build": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "yarn":" react-script yarn"
