@@ -30,8 +30,8 @@ function Home() {
             </h2>
           </div>
 
-          <div className=" w-full realtive ">
-            <img src={Homeimage} className="w-full h-[800px] relative  " />
+          <div className=" w-full  ">
+            <img src={Homeimage} className="w-full h-[800px]" />
           </div>
 
         </div>
