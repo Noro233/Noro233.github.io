@@ -19,7 +19,7 @@ function Home() {
 
         <div className=" w-full " >
 
-          <div className="flex flex-wrap flex-col gap-3 pt-[120px] pl-40 pt-20 absolute z-30 ">
+          <div className="flex flex-col gap-3 pt-[120px] pl-40 pt-20 absolute z-30 ">
             <h1 className="text-6xl font-bold text-gray font-serif"> Norayr </h1>
             <h1 className="text-6xl font-bold text-gray font-serif " > Arakelyan </h1>
             <h2 className="text-designColor font-bold text-3xl font-serif"> <span>  {text} </span>
@@ -30,7 +30,7 @@ function Home() {
             </h2>
           </div>
 
-          <div className="w-full realtive flex flex-wrap">
+          <div className="w-full realtive ">
             <img src={Homeimage} className="w-full h-[800px] relative  " />
           </div>
 
