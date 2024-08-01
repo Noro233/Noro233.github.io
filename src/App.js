@@ -4,7 +4,7 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Resume from "./Components/Resume/Resume";
 import Contacts from "./Components/Contacts/Contacts";
-
+ 
 
 function App() {
 
