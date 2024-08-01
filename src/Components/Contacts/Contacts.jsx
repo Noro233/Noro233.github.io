@@ -16,11 +16,11 @@ function Contacts() {
 
         <div className="w-full flex flex-row items-center gap-10   bg-black ">
 
-          <div className=" h-[500px] bg-black  ">
-            <img src={Booksimage} />
+          <div className=" w-full/2 h-[500px] bg-black  ">
+            <img src={Booksimage} className="w-full/2" />
           </div>
 
-          <div className=" flex flex-col items-center gap-5 w-[350px] 
+          <div className=" flex flex-col items-center gap-5 w-full/2
                             h-[370px] bg-white opacity-30 rounded-lg 
                              border-r-4 border-r-designColor border-b-4 border-b-designColor">
 

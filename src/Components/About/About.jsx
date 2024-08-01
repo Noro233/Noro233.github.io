@@ -7,7 +7,7 @@ function About() {
 
     return (
         <>
-            <section id="about" className="  w-full h-[900px] pb-20 ">
+            <section id="about" className=" w-full h-[900px] pb-20 ">
 
                 <div className=" flex flex-col gap-[50px] h-[150px] w-[500px]  absolute z-30 mt-[100px] ">
 
@@ -29,7 +29,7 @@ function About() {
                 </div>
 
                 <div className=" w-full h-[700px] relative ">
-                    <img src={Photo} className="h-[700px] relative" />
+                    <img src={Photo} className=" w-full h-[700px] relative" />
                 </div>
 
             </section >

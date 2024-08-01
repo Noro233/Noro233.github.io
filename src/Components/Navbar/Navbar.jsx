@@ -8,12 +8,12 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="  w-full h-25 mx-auto bg-black justify-between items-center sticky top-0 z-40    ">
+            <div className=" w-full h-25 mx-auto bg-black justify-between 
+                             items-center sticky top-0 z-40">
 
 
                 <div className="ml-[800px]">
                               
-                
                     <ul className="flex items-center gap-10  ">
                         {
                             navLinksdata.map(({ id, title, link }) => (

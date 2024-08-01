@@ -23,7 +23,7 @@ function Resume() {
             <section id="resume" className="w-full h-[800px]">
 
                 <div className="w-full absolute h-[700px]">
-                    <img src={Resumeimage} className="w-[1280px] h-[700px]" />
+                    <img src={Resumeimage} className="w-full h-[700px]" />
                 </div>
 
 
@@ -36,7 +36,7 @@ function Resume() {
                         </h3>
 
                         <div className="border-l-[5px] ml-[40px] pt-[7px] h-[400px] w-[400px]
-                         border-black  border-opacity-30 flex-col gap-5 absolute">
+                                        border-black  border-opacity-30 flex-col gap-5 absolute">
                             <ResumeCards
                                 title="    YSU Faculty of Managment and Economics , Managment"
                                 years=" 2021-2024" />
