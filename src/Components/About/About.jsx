@@ -7,7 +7,7 @@ function About() {
 
     return (
         <>
-            <section id="about" className="  max-w-full w-full h-[900px] pb-20 ">
+            <section id="about" className="w-full h-[900px] pb-20 ">
 
                 <div className=" flex flex-col gap-[50px] h-[150px] 
                                  w-[500px]  absolute z-30 mt-[100px] ">

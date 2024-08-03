@@ -20,10 +20,10 @@ function Resume() {
 
     return (
         <>
-            <section id="resume" className=" max-w-full w-full h-[800px]">
+            <section id="resume" className="  w-full h-[800px]">
 
                 <div className="w-full absolute h-[700px]">
-                    <img src={Resumeimage} className=" max-w-full w-full h-[700px]" />
+                    <img src={Resumeimage} className=" w-full h-[700px]" />
                 </div>
 
 
