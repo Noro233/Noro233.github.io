@@ -15,14 +15,14 @@ function Home() {
 
   return (
     <>
-      <section id="home" className=" max-w-full w-full h-[900px] font-titleFont ">
+      <section id="home" className="  w-full md:w-full h-[900px] font-titleFont ">
 
         <div className=" w-full h-[800px] " >
 
-          <div className="flex flex-col gap-3 pt-[120px] pl-40 pt-20 absolute z-30 ">
-            <h1 className="text-6xl font-bold text-gray font-serif"> Norayr </h1>
-            <h1 className="text-6xl font-bold text-gray font-serif " > Arakelyan </h1>
-            <h2 className="text-designColor font-bold text-3xl font-serif"> <span>  {text} </span>
+          <div className="flex flex-col md:flex-col gap-3 pt-[120px] pl-40 pt-20 absolute z-30 ">
+            <h1 className="text-6xl md:text-5xl font-bold text-gray font-serif"> Norayr </h1>
+            <h1 className="text-6xl md:text-5xl font-bold text-gray font-serif " > Arakelyan </h1>
+            <h2 className="text-designColor font-bold text-3xl md:text-5xl font-serif"> <span>  {text} </span>
               <Cursor
                 cursorBlinking="true"
                 cursorColor="#e7e5e4"
@@ -30,8 +30,8 @@ function Home() {
             </h2>
           </div>
 
-          <div className=" w-full  ">
-            <img src={Homeimage} className="max-w-full w-full h-[800px]" />
+          <div className=" w-full md:w-full ">
+            <img src={Homeimage} className=" w-full md:w-full h-[800px]" />
           </div>
 
         </div>
