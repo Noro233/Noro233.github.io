@@ -6,9 +6,9 @@
 
 @Layer components {
   
-    .bgOpacity{
+    /*.bgOpacity{
         @apply bg-black bg-opacity-40
 
-    }
+    }*/
     
 }

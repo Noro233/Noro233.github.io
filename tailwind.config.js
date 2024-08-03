@@ -9,7 +9,7 @@ module.exports = {
         // => @media (min-width: 640px) { ... }
   
         md: '768px',
-        // => @media (min-width: 768px) { ... }
+        // =>media (min-width: 768px) { ... }
   
         lg: '1024px',
         // => @media (min-width: 1024px) { ... }
@@ -22,7 +22,7 @@ module.exports = {
       },
     },
      variants: {},
-  plugins: [],
+      plugins: [],
 
       fontFamily:{
         bodyFont:["Poppins","sans-serif"] ,
@@ -38,6 +38,7 @@ module.exports = {
         shadowOne: "10px 10px 19px #1c1e22, -10px -10px -10px 19px #262a2e",
       }
     },
+    plugins: [],
   }
  
 
