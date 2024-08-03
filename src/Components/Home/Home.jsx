@@ -15,9 +15,9 @@ function Home() {
 
   return (
     <>
-      <section id="home" className="  w-full md:w-full h-[900px] font-titleFont ">
+      <section id="home" className="  w-full h-[900px] font-titleFont ">
 
-        <div className=" w-full h-[800px] " >
+        <div className=" w-full  md:w-full h-[800px] " >
 
           <div className="flex flex-col md:flex-col gap-3 pt-[120px] pl-40 pt-20 absolute z-30 ">
             <h1 className="text-6xl md:text-5xl font-bold text-gray font-serif"> Norayr </h1>
