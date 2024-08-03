@@ -15,7 +15,7 @@ function Home() {
 
   return (
     <>
-      <section id="home" className="w-full h-[900px] font-titleFont ">
+      <section id="home" className=" max-w-full w-full h-[900px] font-titleFont ">
 
         <div className=" w-full h-[800px] " >
 

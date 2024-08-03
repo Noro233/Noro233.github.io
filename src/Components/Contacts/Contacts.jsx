@@ -12,7 +12,7 @@ function Contacts() {
 
   return (
     <>
-      <section id="contacts" className="w-full h-[600px]  bg-black ">
+      <section id="contacts" className=" max-w-full w-full h-[600px]  bg-black ">
 
         <div className="w-full flex flex-row items-center gap-10   bg-black ">
 

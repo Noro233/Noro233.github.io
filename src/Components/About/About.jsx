@@ -7,7 +7,7 @@ function About() {
 
     return (
         <>
-            <section id="about" className=" w-full h-[900px] pb-20 ">
+            <section id="about" className="  max-w-full w-full h-[900px] pb-20 ">
 
                 <div className=" flex flex-col gap-[50px] h-[150px] 
                                  w-[500px]  absolute z-30 mt-[100px] ">
@@ -18,9 +18,9 @@ function About() {
                         </h3>
                     </div>
 
-                    <div className="ml-[200px]">
+                    <div className="ml-[100px]">
                         <p className="font-serif font-bold text-xl ">
-                        As a motivated front-end developer, I am eager to
+                         As a motivated front-end developer, I am eager to
                          contribute my skills and enthusiasm to a dynamic team,
                          where I can continue to expand my knowledge and 
                          contribute to the development of the company.
