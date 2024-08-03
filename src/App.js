@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <div className=" max-w-full w-full h-auto bg-black text-lightText  ">
+    <div className="  w-full h-auto bg-black text-lightText  ">
 
       <div className="mx-auto bg-black ">
         <Navbar />

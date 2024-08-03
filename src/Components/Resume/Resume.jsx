@@ -23,11 +23,11 @@ function Resume() {
             <section id="resume" className=" max-w-full w-full h-[800px]">
 
                 <div className="w-full absolute h-[700px]">
-                    <img src={Resumeimage} className="w-full h-[700px]" />
+                    <img src={Resumeimage} className=" max-w-full w-full h-[700px]" />
                 </div>
 
 
-                <div className="flex flex-row  w-full h-[800px] gap-20 ">
+                <div className="flex flex-row w-full h-[800px] gap-20 ">
 
                     <div className=" flex-col items-center relative  ">
 
@@ -85,7 +85,7 @@ function Resume() {
                                      relative  w-[200px] h-[600px] mt-[30px] ">
 
                         <div className="flex flex-col items-ceter w-[100px] h-[650px] 
-                                        bg-black ml-[150px] bg-opacity-20 hover:bg-opacity-30]">
+                                        bg-black ml-[100px] bg-opacity-20 hover:bg-opacity-30]">
 
                             <p className=" font-serif font-bold text-xl text-designColor pl-5"> Skills </p>
                             <img className="hover:opacity-30 p-[20px]" src={Htmllogo} />

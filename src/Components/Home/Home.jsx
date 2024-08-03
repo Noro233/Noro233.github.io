@@ -31,7 +31,7 @@ function Home() {
           </div>
 
           <div className=" w-full  ">
-            <img src={Homeimage} className="w-full h-[800px]" />
+            <img src={Homeimage} className="max-w-full w-full h-[800px]" />
           </div>
 
         </div>
