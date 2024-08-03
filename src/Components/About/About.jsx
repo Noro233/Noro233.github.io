@@ -30,7 +30,7 @@ function About() {
                 </div>
 
                 <div className=" w-full h-[700px] relative ">
-                    <img src={Photo} className="  w-full h-[700px] relative" />
+                    <img src={Photo} className="  w-full md:w-full h-[700px] relative" />
                 </div>
 
             </section >
