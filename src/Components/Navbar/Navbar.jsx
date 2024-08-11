@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Link } from "react-scroll";
 import { navLinksdata } from "../../Constant";
 
@@ -20,7 +20,7 @@ const Navbar = () => {
                         <li
                             key={id}
                             className="text-base font-titleFont text-gray-400 tracking-wide
-                           cursor-pointer hover:text-designColor duration-300"
+                                       cursor-pointer hover:text-designColor duration-300"
                         >
                             <Link
                                 activeClass="active"
