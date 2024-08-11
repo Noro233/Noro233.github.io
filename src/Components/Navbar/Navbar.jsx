@@ -7,15 +7,17 @@ const Navbar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
 
     return (
-        <div className="w-full bg-black sticky top-0 z-20">
+        <div className="w-full h-[70px] bg-black sticky top-0 z-20 ">
+           
             <div className="max-w-6xl mx-auto px-4 py-4 flex
-                        items-center justify-between">
+                            items-center justify-between">
+                
                 <div className="text-white text-2xl font-bold">
                     {isMenuOpen ? <a></a> : <a href="#home">Norayr</a>}
                 </div>
 
                 {/* Navigation Links for Desktop */}
-                <ul className="hidden md:flex md:items-center md:gap-8">
+                <ul className="hidden md:flex md:items-center md:gap-7">
                     {navLinksdata.map(({ id, title, link }) => (
                         <li
                             key={id}
@@ -40,7 +42,7 @@ const Navbar = () => {
                 <div className="md:hidden flex items-center">
                     <button
                         onClick={() => setMenuOpen(!isMenuOpen)}
-                        className="text-white focus:outline-none"
+                        className="text-designColor focus:outline-none"
                         aria-label="Toggle Menu"
                     >
                         <svg
@@ -63,10 +65,10 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <div
-                className={`md:hidden fixed top-0 right-0 h-[20px] w-[370px] 
-                          text-white flex justify-start  items-center p-7 
+                className={`md:hidden fixed top-0 right-[5px] h-[50px] w-[370px] 
+                          text-designColor flex justify-start items-center p-7 
                           transform ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
-                          transition-transform duration-300 ease-in-out z-10`}
+                          transition-transform duration-300 ease-in-out z-5`}
             >
                 {navLinksdata.map(({ id, title, link }) => (
                     <Link
@@ -77,7 +79,7 @@ const Navbar = () => {
                         offset={-70}
                         duration={500}
                         onClick={() => setMenuOpen(false)}
-                        className="w-full py-2 text-right hover:bg-gray-800"
+                        className="w-full py-2 text-designColor"
                     >
                         {title}
                     </Link>
