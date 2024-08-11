@@ -7,30 +7,32 @@ function About() {
 
     return (
         <>
-            <section id="about" className="w-full h-[900px] pb-20 ">
+            <section
+                id="about"
+                className="relative flex pl-[50px] pr-[35px] items-center 
+                           w-full min-h-screen bg-cover bg-right-bottom 
+                           md:bg-center bg-no-repeat text-white"
+                style={{ backgroundImage: `url(${Photo})` }}
+            >
 
-                <div className=" flex flex-col gap-[50px] h-[150px] 
-                                 w-[500px]  absolute z-30 mt-[100px] ">
+                <div className=" absolute inset-0 bg-black opacity-50"> </div>
+                <div className="relative z-10 top--10 flex flex-col
+                               items-center justify-center min-h-scr een p-4 text-center">
 
-                    <div className="ml-[200px]" >
-                        <h3 className=" font-serif text-4xl font-bold  text-designColor ">
+                    <div className="max-w-[450px] sm:max-w-[350px] md:max-w-[400px] 
+                                    lg:max-w-[500px] mt-[px] sm:mt-[15px] text-start mx-auto">
+                        <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-designColor mb-4">
                             About
                         </h3>
-                    </div>
-
-                    <div className="ml-[100px]">
-                        <p className="font-serif font-bold text-xl ">
-                         As a motivated front-end developer, I am eager to
-                         contribute my skills and enthusiasm to a dynamic team,
-                         where I can continue to expand my knowledge and 
-                         contribute to the development of the company.
+                        <p className="text-[10px] sm:text-[15px] md:text-[20px]
+                                      lg:text-[30px] font-serif font-bold">
+                            As a motivated front-end developer, I am eager to contribute
+                            my skills and enthusiasm to a dynamic team,
+                            where I can continue to expand my knowledge and contribute to
+                            the development of the company.
                         </p>
+
                     </div>
-
-                </div>
-
-                <div className=" w-full h-[700px] relative ">
-                    <img src={Photo} className="  w-ful  h-[700px] relative" />
                 </div>
 
             </section >

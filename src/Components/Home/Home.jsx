@@ -15,14 +15,29 @@ function Home() {
 
   return (
     <>
-      <section id="home" className="  w-full h-[900px] font-titleFont ">
+      <section id="home" className=" w-full h-screen flex items-center
+                                     justify-center bg-black  ">
 
-        <div className=" w-full  md:w-full h-[800px] " >
+        <div className=" relative w-full h-full 
+                      px-4 md:px-8 lg:px-16">
 
-          <div className="flex flex-col md:flex-col gap-3 pt-[120px] pl-40 pt-20 absolute z-30 ">
-            <h1 className="text-6xl md:text-5xl font-bold text-gray font-serif"> Norayr </h1>
-            <h1 className="text-6xl md:text-5xl font-bold text-gray font-serif " > Arakelyan </h1>
-            <h2 className="text-designColor font-bold text-3xl md:text-5xl font-serif"> <span>  {text} </span>
+
+          <div className="relative text-start flex flex-col 
+                          float-left pt-[100px] z-10 mb-8 
+                         ml-[110px] md:ml-[219px]">
+
+            <h1 className="text-4xl md:text-5xl lg:text-6xl 
+                           font-bold text-gray-300">
+              Norayr
+            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl 
+                           font-bold text-gray-300 " >
+              Arakelyan
+            </h1>
+
+            <h2 className="text-2xl md:text-3xl lg:text-4xl 
+                           text-designColor font-bold mt-4">
+              <span>  {text} </span>
               <Cursor
                 cursorBlinking="true"
                 cursorColor="#e7e5e4"
@@ -31,7 +46,9 @@ function Home() {
           </div>
 
           <div className=" w-full ">
-            <img src={Homeimage} className=" w-full   h-[800px]" />
+            <img src={Homeimage}
+              alt="HomeBackground"
+              className=" absolute inset-0 w-full h-full object-cover" />
           </div>
 
         </div>
