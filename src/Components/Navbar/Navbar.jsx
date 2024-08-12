@@ -7,13 +7,15 @@ const Navbar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
 
     return (
-        <div className="w-full h-[70px] bg-black sticky top-0 z-20 ">
+        <div className="w-full h-[75px] bg-black sticky top-0 z-20 ">
            
             <div className="max-w-6xl mx-auto px-4 py-4 flex
                             items-center justify-between">
                 
-                <div className="text-white text-2xl font-bold">
-                    {isMenuOpen ? <a></a> : <a href="#home" className='text-designColor '>Norayr</a>}
+                <div className="text-white text-2xl font-bold w-full ">
+                    {isMenuOpen ? <a></a> : <a href="#home" 
+                                            className='text-designColor 
+                                                      '>Norayr</a>}
                 </div>
 
                 {/* Navigation Links for Desktop */}

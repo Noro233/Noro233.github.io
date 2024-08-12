@@ -31,7 +31,7 @@ function Contacts() {
             <div className="flex items-center space-x-3">
               <img src={Emailicon} alt="Email Icon" className="w-5 h-5 bg-white" />
               <div>
-                <p className="text-xl font-serif font-bold text-blue ">E-m6il</p>
+                <p className="text-xl font-serif font-bold text-blue ">E-mail</p>
                 <a href="mailto:arakelyannorayr23@gmail.com"
                   className="text-lg text-[12.9px] text-slate-400 hover:text-indigo-300 hover:underline" >
                   arakelyannorayr23@gmail.com </a>
