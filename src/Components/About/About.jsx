@@ -16,15 +16,19 @@ function About() {
             >
 
                 <div className=" absolute inset-0 bg-black opacity-50"> </div>
+                
                 <div className="relative z-10 top--10 flex flex-col
                                items-center justify-center min-h-scr een p-4 text-center">
 
                     <div className="max-w-[450px] sm:max-w-[350px] md:max-w-[400px] 
-                                    lg:max-w-[500px] mt-[px] sm:mt-[15px] text-start mx-auto">
-                        <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-designColor mb-4">
+                                    lg:max-w-[500px] sm:mt-[500px] 
+                                    sm:ml-[250px] text-start mx-auto">
+                   
+                        <h3 className="text-3xl md:text-4xl lg:text-5xl sm:text-[20px] 
+                                       font-bold text-designColor mb-4">
                             About
                         </h3>
-                        <p className="text-[10px] sm:text-[15px] md:text-[20px]
+                        <p className="text-[10px] sm:text-[18px] md:text-[20px]
                                       lg:text-[30px] font-serif font-bold">
                             As a motivated front-end developer, I am eager to contribute
                             my skills and enthusiasm to a dynamic team,

@@ -13,7 +13,7 @@ const Navbar = () => {
                             items-center justify-between">
                 
                 <div className="text-white text-2xl font-bold">
-                    {isMenuOpen ? <a></a> : <a href="#home">Norayr</a>}
+                    {isMenuOpen ? <a></a> : <a href="#home" className='text-designColor '>Norayr</a>}
                 </div>
 
                 {/* Navigation Links for Desktop */}
@@ -42,7 +42,7 @@ const Navbar = () => {
                 <div className="md:hidden flex items-center">
                     <button
                         onClick={() => setMenuOpen(!isMenuOpen)}
-                        className="text-designColor focus:outline-none"
+                        className="text-designColor focus:outline-none cursor-pointer"
                         aria-label="Toggle Menu"
                     >
                         <svg
@@ -79,7 +79,7 @@ const Navbar = () => {
                         offset={-70}
                         duration={500}
                         onClick={() => setMenuOpen(false)}
-                        className="w-full py-2 text-designColor"
+                        className="w-full py-2 text-designColor cursor-pointer"
                     >
                         {title}
                     </Link>

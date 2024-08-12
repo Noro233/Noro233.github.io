@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <div className=" w-full min-h-screen bg-black text-lightText ">
+    <div className=" w-full min-h-screen  bg-black text-lightText ">
 
       <div className="mx-auto bg-black ">
         <Navbar />

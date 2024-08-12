@@ -24,19 +24,19 @@ function Home() {
 
           <div className="relative text-start flex flex-col 
                           float-left pt-[100px] z-10 mb-8 
-                         ml-[110px] md:ml-[219px]">
+                          ml-[110px] md:ml-[219px]">
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl 
-                           font-bold text-gray-300">
+                           sm:text-6xl font-bold text-gray-300">
               Norayr
             </h1>
             <h1 className="text-4xl md:text-5xl lg:text-6xl 
-                           font-bold text-gray-300 " >
+                          sm:text-6xl font-bold text-gray-300 " >
               Arakelyan
             </h1>
 
-            <h2 className="text-2xl md:text-3xl lg:text-4xl 
-                           text-designColor font-bold mt-4">
+            <h2 className="text-xl md:text-4xl lg:text-5xl 
+                           text-designColor font-bold mt-4 sm:text-2xl">
               <span>  {text} </span>
               <Cursor
                 cursorBlinking="true"
@@ -48,7 +48,7 @@ function Home() {
           <div className=" w-full ">
             <img src={Homeimage}
               alt="HomeBackground"
-              className=" absolute inset-0 w-full h-full object-cover" />
+              className=" absolute inset-0 w-full h-full object-cover object-center" />
           </div>
 
         </div>
