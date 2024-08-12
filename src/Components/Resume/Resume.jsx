@@ -48,7 +48,8 @@ function Resume() {
                     </div>
 
                     {/* Additional Information */}
-                    <div className="mt-[400px] mb-[10px] bg-black bg-opacity-20 p-4 rounded-lg border-2 border-designColor">
+                    <div className="mt-[400px] mb-[10px] bg-black bg-opacity-20
+                                    p-4 rounded-lg border-2 border-designColor cursor-pointer hover:opacity-70">
                         <p>
                             I am a dedicated learner with nearly 8 months of focused study at En-Code Academy,
                             where I gained a solid foundation in programming fundamentals, JavaScript, and React.js.
@@ -67,15 +68,20 @@ function Resume() {
                     <div className="bg-black bg-opacity-20 p-4 rounded-lg border-2 border-designColor">
                         <p className="text-xl font-serif font-bold text-designColor mb-4">Skills</p>
                         <div className="flex flex-wrap gap-4 justify-center">
-                            <img src={Htmllogo} alt="HTML Logo" className="w-16 h-16" />
-                            <img src={Csslogo} alt="CSS Logo" className="w-16 h-16" />
-                            <img src={JavaScriptlogo} alt="JavaScript Logo" className="w-16 h-16" />
-                            <img src={ReactJSlogo} alt="React Logo" className="w-16 h-16" />
+                            <img src={Htmllogo} alt="HTML Logo"
+                                 className="w-16 h-16 cursor-pointer hover:opacity-70" />
+                            <img src={Csslogo} alt="CSS Logo" 
+                                 className="w-16 h-16 cursor-pointer hover:opacity-70" />
+                            <img src={JavaScriptlogo} alt="JavaScript Logo"
+                                 className="w-16 h-16 cursor-pointer hover:opacity-70" />
+                            <img src={ReactJSlogo} alt="React Logo"
+                                 className="w-16 h-16 cursor-pointer hover:opacity-70" />
                         </div>
                     </div>
 
                     {/* Languages */}
-                    <div className="bg-black bg-opacity-20 p-4 rounded-lg border-2 border-designColor">
+                    <div className="bg-black bg-opacity-20 p-4 rounded-lg border-2 
+                                    border-designColor cursor-pointer hover:opacity-70">
                         <p className="text-2xl font-serif font-bold text-designColor mb-4">Languages</p>
                         {ProgressData.map((item, index) => (
                             <div key={index} className="mb-4">

@@ -20,11 +20,11 @@ function About() {
                 <div className="relative z-10 top--10 flex flex-col
                                items-center justify-center min-h-scr een p-4 text-center">
 
-                    <div className="max-w-[450px] sm:max-w-[350px] md:max-w-[400px] 
-                                    lg:max-w-[500px] sm:mt-[500px] 
-                                    sm:ml-[250px] text-start mx-auto">
+                    <div className="max-w-[450px] sm:max-w-[450px] md:max-w-[450px] 
+                                    lg:max-w-[500px] sm:mt-[530px] 
+                                    sm:ml-[300px] text-start mx-auto">
                    
-                        <h3 className="text-3xl md:text-4xl lg:text-5xl sm:text-[20px] 
+                        <h3 className="text-3xl md:text-4xl lg:text-5xl sm:text-[35px] 
                                        font-bold text-designColor mb-4">
                             About
                         </h3>
