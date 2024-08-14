@@ -24,13 +24,14 @@ function Resume() {
 
             <div className="relative z-10 w-full flex flex-row
                             items-center justify-center flex-wrap 
-                            min-h-screen  gap-10 p-4 md:w-full 2xl:w-full  "
+                            min-h-screen gap-10 p-4 "
             >
 
 
                 {/* Content Wrapper */}
                 <div className=" flex flex-col md:flex-col w-full/2 md:w-full/2 
-                                 lg-w-full/2 max-w-6xl space-y-5 md:space-y-5
+                                 lg-w-full/2 max-w-6xl md:max-w-7xl 2xl:max-w-7xl 2xl:mr-[200px] 
+                                 space-y-5 md:space-y-5
                                  gap-5 mb-[100px] flex flex-wrap md:flex-wrap 
                            
                                ">
