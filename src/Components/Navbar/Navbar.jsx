@@ -12,9 +12,9 @@ const Navbar = () => {
             <div className="max-w-6xl mx-auto px-4 py-4 flex
                             items-center justify-between">
 
-                <div className="text-white text-2xl font-bold w-fit ml-0 ">
+                <div className="text-white text-2xl font-bold w-fit  ">
                     {isMenuOpen ? <a></a> : <a href="#home"
-                        className='text-designColor ml-0'>Norayr</a>}
+                        className='text-designColor pr-50'> Norayr </a>}
                 </div>
 
                 {/* Navigation Links for Desktop */}
