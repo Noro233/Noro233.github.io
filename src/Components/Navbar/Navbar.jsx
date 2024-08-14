@@ -10,11 +10,11 @@ const Navbar = () => {
         <div className="w-full h-[75px] bg-black sticky top-0 z-20 overflow-hidden">
 
             <div className="max-w-6xl mx-auto px-4 py-4 flex
-                            items-center justify-between">
+                            items-center ">
 
-                <div className="text-white text-2xl font-bold w-fit mr-[200px] ">
+                <div className="text-white text-2xl font-bold w-fit  ">
                     {isMenuOpen ? <a></a> : <a href="#home"
-                        className='text-designColor mr-[200px]'> Norayr </a>}
+                        className='text-designColor '> Norayr </a>}
                 </div>
 
                 {/* Navigation Links for Desktop */}
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </ul>
 
                 {/* Mobile Menu Button */}
-                <div className="md:hidden flex items-center">
+                <div className="md:hidden flex items-center ">
                     <button
                         onClick={() => setMenuOpen(!isMenuOpen)}
                         className="text-designColor focus:outline-none cursor-pointer"
