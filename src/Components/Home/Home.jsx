@@ -23,7 +23,7 @@ function Home() {
 
 
           <div className="relative text-start flex flex-col 
-                          float-left pt-[100px] z-10 mb-8">
+                           pt-[100px] z-10 mb-8">
 
             <h1 className=" text-2xl sm:text-3xl mb:text-4xl md:text-2xl
                           lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold">
