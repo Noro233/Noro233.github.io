@@ -22,13 +22,9 @@ function Resume() {
 
             <div className="inset-0 bg-black opacity-30 absolute"> </div>
 
-
-
-
-
             <div className="relative z-10 w-full flex flex-row
                             items-center justify-center flex-wrap 
-                            min-h-screen  gap-10 p-4  "
+                            min-h-screen  gap-10 p-4 2xl:min-w-full 2xl:max-w-full  "
             >
 
 
