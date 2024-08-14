@@ -32,13 +32,13 @@ function Resume() {
                 <div className=" flex flex-col md:flex-col w-full/2 md:w-full/2 
                                  lg-w-full/2 max-w-6xl md:max-w-7xl 2xl:max-w-7xl 2xl:mr-[200px] 
                                  space-y-5 md:space-y-5
-                                 gap-5 mb-[100px] flex flex-wrap md:flex-wrap 
+                                 gap-10 mb-[100px] flex flex-wrap md:flex-wrap 
                            
                                ">
 
                     {/* Education */}
                     <div className=" flex-1 flex-wrap sm:flex-wrap mb:flex-wrap">
-                        <h3 className=" text-xl mb:text-xl md:text-2xl lg:text-3xl 
+                        <h3 className=" text-2xl mb:text-xl md:text-2xl lg:text-3xl 
                                         font-bold text-designColor mb-2 ml-[10px]
                                         sm:ml-[50px] mb:ml-[70px]">
                             Education
@@ -61,8 +61,8 @@ function Resume() {
 
                     {/* Additional Information */}
                     <div className=" mt-[400px] mb-[50px] bg-black bg-opacity-20
-                                     p-4 rounded-lg border-2 border-designColor
-                                     cursor-pointer hover:opacity-70 
+                                     p-5 border-designColor cursor-pointer hover:opacity-80
+                                     2xl:text-2xl border-b-2 border-l-2 
                                     
                             ">
                         <p>
@@ -107,12 +107,11 @@ function Resume() {
                     </div>
 
                     {/* Languages */}
-                    <div className=" bg-black bg-opacity-20 p-4 h-fit rounded-lg border-2 
-                                     border-designColor cursor-pointer hover:opacity-70 ">
+                    <div className=" bg-black bg-opacity-20 p-4 h-fit 
+                                     cursor-pointer hover:opacity-70 w-[250px]">
                         <p className="text-2xl font-serif font-bold text-designColor ">Languages</p>
                         {ProgressData.map((item, index) => (
-                            <div key={index} className="mb-4 
-                                               ">
+                            <div key={index} className="mb-4">
                                 <p className="font-bold font-serif">{item.language}</p>
                                 <div className="bg-gray-200 rounded-full h-3 mt-1">
                                     <div
