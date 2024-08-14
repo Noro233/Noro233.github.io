@@ -13,13 +13,13 @@ function Contacts() {
                                        overflow-x-auto overflow-hidden">
 
 
-      <div className=" flex flex-row items-center
-                       flex-wrap mt-[130px] overflow-hidden">
+      <div className=" flex flex-row items-center justify-center
+                       flex-wrap mt-[110px] overflow-hidden">
 
         {/* Background Image */}
         <img src={Booksimage}
           alt="Background"
-          className="w-90 object-cover inset-0 z-0 " />
+          className="w-100 object-cover inset-0 z-0 " />
 
         <div className=" flex flex-col md:flex-row 
                         items-center justify-end p-5 ">
