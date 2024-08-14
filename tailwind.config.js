@@ -21,6 +21,14 @@ module.exports = {
       },
       boxShadow: {
         shadowOne: "10px 10px 19px #1c1e22, -10px -10px -10px 19px #262a2e",
+      },
+      screens:{
+        'mb': '375px',  
+        'sm': '425px',  
+        'md': '640px',    
+        'lg': '1024px',    
+        'xl': '1280px',   
+        '2xl': '1536px'
       }
     },
     plugins: [],

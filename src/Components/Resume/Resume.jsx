@@ -13,13 +13,14 @@ function Resume() {
     ];
 
     return (
-        <section id="resume" className="relative w-full min-h-screen bg-black text-white ">
+        <section id="resume" className="relative w-full min-h-screen overflow-x-auto ">
 
             <div className="absolute inset-0">
                 {/* Background Image */}
-                <img src={Resumeimage} alt="Resume Background" className="w-full h-full " />
+                <img src={Resumeimage} alt="Resume Background" className="w-full h-full relative " />
             </div>
 
+            <div className="inset-0 bg-black opacity-30 absolute"> </div>
 
 
 
@@ -27,18 +28,22 @@ function Resume() {
 
             <div className="relative z-10 w-full flex flex-row
                             items-center justify-center flex-wrap 
-                             min-h-screen gap-10 p-4  "
-                           >
-              
-              
+                            min-h-screen  gap-10 p-4 "
+            >
+
+
                 {/* Content Wrapper */}
-                <div className="flex flex-col md:flex-col w-full/2 max-w-6xl 
-                               mx-auto space-y-5 md:space-y-5 md:space-x-5 gap-5 ">
+                <div className=" flex flex-col md:flex-col w-full/2 md:w-full/2 
+                                 lg-w-full/2 max-w-6xl space-y-5 md:space-y-5
+                                 gap-5 mb-[100px] flex flex-wrap md:flex-wrap 
+                           
+                               ">
 
                     {/* Education */}
-                    <div className="flex-1">
-                        <h3 className="text-xl md:text-2xl lg:text-3xl 
-                             font-bold text-designColor mb-2">
+                    <div className=" flex-1 flex-wrap sm:flex-wrap mb:flex-wrap">
+                        <h3 className=" text-xl mb:text-xl md:text-2xl lg:text-3xl 
+                                        font-bold text-designColor mb-2 ml-[10px]
+                                        sm:ml-[50px] mb:ml-[70px]">
                             Education
                         </h3>
                         <div className="border-l-4 border-black border-opacity-30 ">
@@ -58,9 +63,10 @@ function Resume() {
                     </div>
 
                     {/* Additional Information */}
-                    <div className="mt-[400px] mb-[50px] bg-black bg-opacity-20
-                                    p-4 rounded-lg border-2 border-designColor
-                                    cursor-pointer hover:opacity-70
+                    <div className=" mt-[400px] mb-[50px] bg-black bg-opacity-20
+                                     p-4 rounded-lg border-2 border-designColor
+                                     cursor-pointer hover:opacity-70 
+                                    
                             ">
                         <p>
                             I am a dedicated learner with nearly 8 months of focused study at En-Code Academy,
@@ -80,17 +86,17 @@ function Resume() {
 
 
                 {/* Skills and Languages */}
-                <div className="flex flex-col items-center gap-20 mt-[50px] 
-                                ">
-                   
+                <div className="flex flex-col items-center gap-20 mt-0 ">
+
                     {/* Skills */}
-                    <div className="flex flex-col flex-wrap
-                                    w-fit mt-2 bg-black bg-opacity-20 
-                                    p-5 gap-2 rounded-lg border-2 border-designColor">
-                       
-                        <p className="text-xl font-serif font-bold text-designColor">Skills</p>
-                       
-                        <div className="flex   gap-4 justify-center sm:flex-col 
+                    <div className=" flex flex-col flex-wrap
+                                     w-fit mt-2 bg-black bg-opacity-20 
+                                     p-5 gap-2 rounded-lg border-2 border-designColor">
+
+                        <p className=" text-xl font-serif font-bold text-designColor">Skills</p>
+
+                        <div className=" flex gap-4 justify-center sm:flex-row 
+                                         mb:flex-row md:flex-row lg-flex-row xl:flex-col
                                           ">
                             <img src={Htmllogo} alt="HTML Logo"
                                 className="w-16 h-16 cursor-pointer hover:opacity-70" />
@@ -104,12 +110,12 @@ function Resume() {
                     </div>
 
                     {/* Languages */}
-                    <div className="bg-black bg-opacity-20 p-4 h-fit rounded-lg border-2 
-                                    border-designColor cursor-pointer hover:opacity-70">
-                        <p className="text-2xl font-serif font-bold text-designColor mb-4">Languages</p>
+                    <div className=" bg-black bg-opacity-20 p-4 h-fit rounded-lg border-2 
+                                     border-designColor cursor-pointer hover:opacity-70 ">
+                        <p className="text-2xl font-serif font-bold text-designColor ">Languages</p>
                         {ProgressData.map((item, index) => (
-                            <div key={index} className="mb-4 sm:min-w-screen sm:max-w-screen md:min-w-screen
-                            md:max-w-screen">
+                            <div key={index} className="mb-4 
+                                               ">
                                 <p className="font-bold font-serif">{item.language}</p>
                                 <div className="bg-gray-200 rounded-full h-3 mt-1">
                                     <div

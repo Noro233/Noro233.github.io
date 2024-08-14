@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
 
     return (
-        <div className="w-full h-[75px] bg-black sticky top-0 z-20 ">
+        <div className="w-full h-[75px] bg-black sticky top-0 z-20 overflow-hidden">
            
             <div className="max-w-6xl mx-auto px-4 py-4 flex
                             items-center justify-between">

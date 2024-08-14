@@ -9,10 +9,12 @@ import { GitHubicon } from "../../Images";
 
 function Contacts() {
   return (
-    <section id="contacts" className=" w-full min-h-screen bg-black text-white ">
+    <section id="contacts" className=" w-full min-h-screen  bg-black text-white
+                                       overflow-x-auto overflow-hidden">
 
 
-      <div className="flex flex-row items-center flex-wrap mt-[130px]">
+      <div className=" flex flex-row items-center
+                       flex-wrap mt-[130px] overflow-hidden">
 
         {/* Background Image */}
         <img src={Booksimage}
@@ -20,20 +22,22 @@ function Contacts() {
           className="w-90 object-cover inset-0 z-0 " />
 
         <div className=" flex flex-col md:flex-row 
-                        items-center justify-end min-fit p-5 ">
+                        items-center justify-end p-5 ">
 
 
           {/* Contact Information */}
-          <div className="flex flex-col items-start md:items-start w-full
-                          rounded-lg p-8 
-                          border-b-2 border-b-designColor border-r-designColor space-y-6 ">
+          <div className="flex flex-col items-start md:items-start
+                          mb:items-start sm:items-start w-full
+                          rounded-lg p-5 border-b-2 border-b-designColor 
+                          border-r-designColor space-y-4">
 
             <div className="flex items-center space-x-3">
               <img src={Emailicon} alt="Email Icon" className="w-5 h-5 bg-white" />
               <div>
                 <p className="text-xl font-serif font-bold text-blue ">E-mail</p>
                 <a href="mailto:arakelyannorayr23@gmail.com"
-                  className="text-lg text-[12.9px] text-slate-400 hover:text-indigo-300 hover:underline" >
+                  className="text-lg text-[12.9px] text-slate-400 
+                             hover:text-indigo-300 hover:underline" >
                   arakelyannorayr23@gmail.com </a>
               </div>
             </div>
@@ -75,11 +79,13 @@ function Contacts() {
 
         </div>
 
+
       </div>
       {/* Footer */}
-      <div className="absolute w-full bottom-15 bg-black 
-                     left-1/2 transform -translate-x-1/2 text-center">
-        <p className="text-lg  font-serif font-bold ">Thanks for watching!</p>
+      <div className=" absolute w-full bottom-15 bg-black 
+                       left-1/2 transform -translate-x-1/2 text-center">
+        <p className=" text-lg font-serif font-bold
+                       hover:text-xl hover:text-designColor  "> Thanks for watching ! </p>
       </div>
 
 
