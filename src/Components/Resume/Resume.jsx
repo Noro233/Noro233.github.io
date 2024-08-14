@@ -24,7 +24,7 @@ function Resume() {
 
             <div className="relative z-10 w-full flex flex-row
                             items-center justify-center flex-wrap 
-                            min-h-screen  gap-10 p-4 2xl:min-w-full 2xl:max-w-full  "
+                            min-h-screen  gap-10 p-4 md:w-full 2xl:w-full  "
             >
 
 
